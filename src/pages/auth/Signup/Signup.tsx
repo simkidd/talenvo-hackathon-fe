@@ -1,8 +1,16 @@
+import HelmetComp from "@/components/shared/HelmetComp";
 
 const Signup = () => {
   return (
-    <div>Signup</div>
-  )
-}
+    <div>
+      <HelmetComp
+        title="Signup"
+        description="Create a new EduConnect account to get started."
+      />
 
-export default Signup
+      <h1>Signup</h1>
+    </div>
+  );
+};
+
+export default Signup;
