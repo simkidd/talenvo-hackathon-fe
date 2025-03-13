@@ -1,8 +1,16 @@
+import HelmetComp from "@/components/shared/HelmetComp";
 
 const Login = () => {
   return (
-    <div>Login</div>
-  )
-}
+    <div>
+      <HelmetComp
+        title="Login - EduConnect"
+        description="Login to your EduConnect account to access your dashboard."
+      />
 
-export default Login
+      <h1>Login</h1>
+    </div>
+  );
+};
+
+export default Login;
