@@ -1,3 +1,4 @@
 import AuthLayout from "./AuthLayout";
+import DashboardLayout from "./DashboardLayout";
 
-export default AuthLayout
+export { AuthLayout, DashboardLayout };
